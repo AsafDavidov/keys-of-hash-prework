@@ -3,5 +3,6 @@ class Hash
     # code goes here
     arguments.collect do |animals,country|
       animals
+    end
   end
 end
