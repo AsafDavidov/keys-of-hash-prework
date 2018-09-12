@@ -4,7 +4,7 @@ class Hash
     returned_keys = []
     self.each do |key,value|
       arguments.each do |argument|
-        if value == arguments
+        if value == argument
           returned_keys << key
         end
       end
