@@ -3,9 +3,9 @@ class Hash
     # code goes here
     returned_keys = []
     self.each do |key,value|
-      if value == arguments
+      #if value == arguments
         returned_keys << value
-      end
+      #end
     end
     returned_keys
   end
