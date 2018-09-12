@@ -3,8 +3,8 @@ class Hash
     # code goes here
     returned_keys = []
     self.each do |key,value|
-      arguments.each do |argument
-      
+      arguments.each do |argument|
+        
         if value == arguments
           returned_keys << key
         end
